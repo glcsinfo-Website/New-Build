@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.serpentoptisolutions.in/sitemap.xml
+Sitemap: https://www.glcs-info.com/sitemap.xml
