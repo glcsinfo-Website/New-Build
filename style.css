@@ -231,10 +231,7 @@ h2 {
 }
 
 .hero {
-  position: relative;
-  padding: 100px 0 120px;
-  background: url("images/hero-pump-dark.jpg") center/cover no-repeat;
-  filter: brightness(1.1);
+  background: #f8fafc;
 }
 
 .hero-inner {
@@ -315,8 +312,9 @@ h2 {
   border-color: rgba(148, 163, 184, 0.5);
 }
 
-.btn-ghost:hover {
-  background: rgba(15, 23, 42, 1);
+.btn-ghost {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
 }
 
 /* Hero meta */
@@ -328,11 +326,8 @@ h2 {
 }
 
 .hero-meta-item {
-  padding: 7px 11px;
-  border-radius: 999px;
-  border: 1px solid rgba(148, 163, 184, 0.5);
-  background: rgba(15, 23, 42, 0.9);
-  font-size: 0.78rem;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
 }
 
 .hero-meta-label {
@@ -351,14 +346,9 @@ h2 {
 }
 
 .hero-card {
-  background: radial-gradient(circle at top left, rgba(16, 185, 129, 0.18), rgba(15, 23, 42, 0.98));
-  border-radius: 24px;
-  border: 1px solid rgba(148, 163, 184, 0.45);
-  box-shadow: var(--shadow-soft);
-  padding: 18px 18px 14px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.05);
 }
 
 .hero-card-header,
@@ -490,11 +480,7 @@ h2 {
 }
 
 .about-card {
-  padding: 18px;
-  border-radius: var(--radius-lg);
-  background: rgba(15, 23, 42, 0.96);
-  border: 1px solid var(--border-soft);
-  font-size: 0.94rem;
+  background: #ffffff;
 }
 
 .about-highlight {
@@ -534,11 +520,7 @@ h2 {
 }
 
 .pill-list li {
-  padding: 4px 10px;
-  border-radius: 999px;
-  background: rgba(15, 23, 42, 0.96);
-  border: 1px solid rgba(148, 163, 184, 0.55);
-  font-size: 0.8rem;
+  background: #f1f5f9;
 }
 
 /* Generic cards grid */
@@ -739,15 +721,8 @@ label {
 input,
 textarea,
 select {
-  padding: 8px 10px;
-  border-radius: 10px;
-  border: 1px solid rgba(148, 163, 184, 0.7);
-  background: #020617;
-  color: var(--text-main);
-  font: inherit;
-  resize: vertical;
-  outline: none;
-  transition: border 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+  background: #ffffff;
+  color: #111827;
 }
 
 input:focus,
@@ -769,10 +744,8 @@ select {
 
 /* Footer */
 
-.site-footer {
-  border-top: 1px solid rgba(148, 163, 184, 0.55);
-  background: #020617;
-  padding: 20px 0;
+..site-footer {
+  background: #f8fafc;
 }
 
 .footer-inner {
