@@ -481,10 +481,11 @@ h2 {
 
 .about-card {
   background: #ffffff;
+  border: 1px solid #e5e7eb;
 }
 
 .about-highlight {
-  background: linear-gradient(135deg, rgba(16, 185, 129, 0.18), rgba(15, 23, 42, 0.98));
+  background: #ffffff;
 }
 
 .checklist {
